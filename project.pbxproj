@@ -1,0 +1,1908 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEB2AC28BB110576E8938ADF /* Pods_NewIBety.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0A83C627C951FD566512E3 /* Pods_NewIBety.framework */; };
+		ED4962922334B88F00919F61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4962912334B88F00919F61 /* AppDelegate.swift */; };
+		ED4962972334B88F00919F61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4962952334B88F00919F61 /* Main.storyboard */; };
+		ED4962992334B89100919F61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4962982334B89100919F61 /* Assets.xcassets */; };
+		ED49629C2334B89100919F61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED49629A2334B89100919F61 /* LaunchScreen.storyboard */; };
+		ED4962A62334BBBA00919F61 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = ED4962A52334BBBA00919F61 /* Podfile */; };
+		EDC54F822334CA620055B270 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54F812334CA620055B270 /* PageControl.swift */; };
+		EDC54F90233606370055B270 /* AboutApplicationInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54F8F233606360055B270 /* AboutApplicationInterector.swift */; };
+		EDC54F92233606420055B270 /* AboutApplicationProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54F91233606410055B270 /* AboutApplicationProtocols.swift */; };
+		EDC54F94233606650055B270 /* AboutApplicationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54F93233606640055B270 /* AboutApplicationPresenter.swift */; };
+		EDC54F96233606960055B270 /* AboutApplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54F95233606960055B270 /* AboutApplicationViewController.swift */; };
+		EDC54F98233606B50055B270 /* AboutApplicationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54F97233606B50055B270 /* AboutApplicationRouter.swift */; };
+		EDC54FAB23360BED0055B270 /* L012Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54FAA23360BED0055B270 /* L012Language.swift */; };
+		EDC54FAC23360BED0055B270 /* L102Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54FA923360BEC0055B270 /* L102Language.swift */; };
+		EDC54FC523361CF40055B270 /* ParentViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54FC123361CE30055B270 /* ParentViewPresenter.swift */; };
+		EDC54FC623361CF40055B270 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54FC323361CEA0055B270 /* ParentViewController.swift */; };
+		EDC54FC723361CF40055B270 /* ParentViewInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54FC223361CE70055B270 /* ParentViewInterector.swift */; };
+		EDC54FC823361CF40055B270 /* ParentViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54FC423361CF20055B270 /* ParentViewRouter.swift */; };
+		EDC54FCC23361D330055B270 /* ParentViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54FCB23361D320055B270 /* ParentViewProtocols.swift */; };
+		EDC54FDC23361E290055B270 /* PartsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54FD923361E1F0055B270 /* PartsCollectionViewController.swift */; };
+		EDC54FDD23361E290055B270 /* PartsCollectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54FDA23361E240055B270 /* PartsCollectionPresenter.swift */; };
+		EDC54FDE23361E290055B270 /* PartsCollectionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54FD823361E1A0055B270 /* PartsCollectionRouter.swift */; };
+		EDC54FDF23361E290055B270 /* PartsCollectionInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54FDB23361E280055B270 /* PartsCollectionInterector.swift */; };
+		EDC54FE323361E580055B270 /* PartsCollectionProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54FE223361E570055B270 /* PartsCollectionProtocols.swift */; };
+		EDC54FEB23361EFF0055B270 /* IbetyInteractor+AccountCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54FE723361EFA0055B270 /* IbetyInteractor+AccountCreate.swift */; };
+		EDC54FEC23361EFF0055B270 /* AccountCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54FE823361EFB0055B270 /* AccountCreationViewController.swift */; };
+		EDC54FED23361EFF0055B270 /* IbetyPresenter+AccountCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54FE923361EFC0055B270 /* IbetyPresenter+AccountCreate.swift */; };
+		EDC54FEE23361EFF0055B270 /* IbetyRouter+AccountCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54FEA23361EFF0055B270 /* IbetyRouter+AccountCreate.swift */; };
+		EDC54FF023361F930055B270 /* AccountCreateProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54FEF23361F930055B270 /* AccountCreateProtocols.swift */; };
+		EDC54FF9233620900055B270 /* AdvertisingInfoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54FF3233620900055B270 /* AdvertisingInfoPresenter.swift */; };
+		EDC54FFA233620900055B270 /* AdvertisingInfoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54FF4233620900055B270 /* AdvertisingInfoRouter.swift */; };
+		EDC54FFB233620900055B270 /* AdvertisingInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54FF5233620900055B270 /* AdvertisingInfoViewController.swift */; };
+		EDC54FFC233620900055B270 /* AdvertisingInfoInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54FF6233620900055B270 /* AdvertisingInfoInterector.swift */; };
+		EDC54FFD233620900055B270 /* AdvertisingInfoProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC54FF8233620900055B270 /* AdvertisingInfoProtocols.swift */; };
+		EDC55066233621580055B270 /* MyProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550002336213A0055B270 /* MyProductViewController.swift */; };
+		EDC55067233621580055B270 /* MyProductsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550012336213A0055B270 /* MyProductsPresenter.swift */; };
+		EDC55068233621580055B270 /* MyProductsInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550022336213A0055B270 /* MyProductsInterector.swift */; };
+		EDC55069233621580055B270 /* MyProductsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550032336213A0055B270 /* MyProductsRouter.swift */; };
+		EDC5506A233621580055B270 /* MyProductsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550052336213A0055B270 /* MyProductsProtocols.swift */; };
+		EDC5506B233621580055B270 /* CommunicateDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550082336213C0055B270 /* CommunicateDetailsPresenter.swift */; };
+		EDC5506C233621580055B270 /* CommunicateDetailsInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550092336213C0055B270 /* CommunicateDetailsInterector.swift */; };
+		EDC5506D233621580055B270 /* CommunicateDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5500A2336213C0055B270 /* CommunicateDetailsRouter.swift */; };
+		EDC5506E233621580055B270 /* CommunicateDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5500B2336213C0055B270 /* CommunicateDetailsViewController.swift */; };
+		EDC5506F233621580055B270 /* CommunicateDetailsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5500D2336213C0055B270 /* CommunicateDetailsProtocol.swift */; };
+		EDC55070233621580055B270 /* IbetyPresenter+LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550102336213D0055B270 /* IbetyPresenter+LoginPage.swift */; };
+		EDC55071233621580055B270 /* Login1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550112336213D0055B270 /* Login1ViewController.swift */; };
+		EDC55072233621580055B270 /* IbetyInterector+LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550122336213D0055B270 /* IbetyInterector+LoginPage.swift */; };
+		EDC55073233621580055B270 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550132336213D0055B270 /* LoginRouter.swift */; };
+		EDC55074233621580055B270 /* LoginPageProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550152336213D0055B270 /* LoginPageProtocols.swift */; };
+		EDC55075233621580055B270 /* LanguageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55018233621400055B270 /* LanguageRouter.swift */; };
+		EDC55076233621580055B270 /* LanguageInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55019233621400055B270 /* LanguageInterector.swift */; };
+		EDC55077233621580055B270 /* LanguagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5501A233621400055B270 /* LanguagePresenter.swift */; };
+		EDC55078233621580055B270 /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5501B233621400055B270 /* LanguageViewController.swift */; };
+		EDC55079233621580055B270 /* LanguageProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5501D233621400055B270 /* LanguageProtocols.swift */; };
+		EDC5507A233621580055B270 /* CommunicationInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55020233621420055B270 /* CommunicationInterector.swift */; };
+		EDC5507B233621580055B270 /* CommunicationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55021233621420055B270 /* CommunicationRouter.swift */; };
+		EDC5507C233621580055B270 /* CommunicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55022233621420055B270 /* CommunicationViewController.swift */; };
+		EDC5507D233621580055B270 /* CommunicationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55023233621420055B270 /* CommunicationPresenter.swift */; };
+		EDC5507E233621580055B270 /* CommunicationProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55025233621420055B270 /* CommunicationProtocols.swift */; };
+		EDC5507F233621580055B270 /* MyDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55028233621440055B270 /* MyDetailsRouter.swift */; };
+		EDC55080233621580055B270 /* MyDetailsInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55029233621440055B270 /* MyDetailsInterector.swift */; };
+		EDC55081233621580055B270 /* MyDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5502A233621440055B270 /* MyDetailsViewController.swift */; };
+		EDC55082233621580055B270 /* MyDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5502B233621440055B270 /* MyDetailsPresenter.swift */; };
+		EDC55083233621580055B270 /* MyDetailsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5502D233621440055B270 /* MyDetailsProtocols.swift */; };
+		EDC55084233621580055B270 /* FirstTabRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55030233621450055B270 /* FirstTabRouter.swift */; };
+		EDC55085233621580055B270 /* FirstTabInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55031233621450055B270 /* FirstTabInterector.swift */; };
+		EDC55086233621580055B270 /* FirstTabPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55032233621450055B270 /* FirstTabPresenter.swift */; };
+		EDC55087233621580055B270 /* FirstTABViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55033233621450055B270 /* FirstTABViewController.swift */; };
+		EDC55088233621580055B270 /* FirstTabProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55035233621450055B270 /* FirstTabProtocols.swift */; };
+		EDC55089233621580055B270 /* Name_PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55038233621480055B270 /* Name_PasswordViewController.swift */; };
+		EDC5508A233621580055B270 /* Name_PasswordRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55039233621480055B270 /* Name_PasswordRouter.swift */; };
+		EDC5508B233621580055B270 /* Name_PasswordInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5503A233621480055B270 /* Name_PasswordInterector.swift */; };
+		EDC5508C233621580055B270 /* Name_PasswordPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5503B233621480055B270 /* Name_PasswordPresenter.swift */; };
+		EDC5508D233621580055B270 /* Name_PasswordProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5503D233621480055B270 /* Name_PasswordProtocols.swift */; };
+		EDC5508E233621580055B270 /* NotificationsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550402336214B0055B270 /* NotificationsPresenter.swift */; };
+		EDC5508F233621580055B270 /* NotificationsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550412336214B0055B270 /* NotificationsRouter.swift */; };
+		EDC55090233621580055B270 /* NotificationsInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550422336214B0055B270 /* NotificationsInterector.swift */; };
+		EDC55091233621580055B270 /* NotificationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550432336214B0055B270 /* NotificationTableViewController.swift */; };
+		EDC55092233621580055B270 /* NotificationsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550452336214C0055B270 /* NotificationsProtocols.swift */; };
+		EDC55093233621580055B270 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550482336214F0055B270 /* FirstViewController.swift */; };
+		EDC55094233621580055B270 /* IbetyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550492336214F0055B270 /* IbetyPresenter.swift */; };
+		EDC55095233621580055B270 /* InteractorClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5504A2336214F0055B270 /* InteractorClass.swift */; };
+		EDC55096233621580055B270 /* IbetyRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5504B2336214F0055B270 /* IbetyRouter.swift */; };
+		EDC55097233621580055B270 /* protocolClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5504D2336214F0055B270 /* protocolClass.swift */; };
+		EDC55098233621580055B270 /* MyProjectPartsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55050233621510055B270 /* MyProjectPartsRouter.swift */; };
+		EDC55099233621580055B270 /* MyProjectPartsInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55051233621510055B270 /* MyProjectPartsInterector.swift */; };
+		EDC5509A233621580055B270 /* MyProjectPartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55052233621510055B270 /* MyProjectPartsViewController.swift */; };
+		EDC5509B233621580055B270 /* MyProjectPartsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55053233621510055B270 /* MyProjectPartsPresenter.swift */; };
+		EDC5509C233621580055B270 /* MyProjectPartsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55055233621510055B270 /* MyProjectPartsProtocols.swift */; };
+		EDC5509D233621580055B270 /* FourTabPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55058233621530055B270 /* FourTabPresenter.swift */; };
+		EDC5509E233621580055B270 /* FourTabRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55059233621530055B270 /* FourTabRouter.swift */; };
+		EDC5509F233621580055B270 /* FourTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5505A233621530055B270 /* FourTabViewController.swift */; };
+		EDC550A0233621580055B270 /* FourTabInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5505B233621530055B270 /* FourTabInterector.swift */; };
+		EDC550A1233621580055B270 /* FourTabProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5505D233621530055B270 /* FourTabProtocols.swift */; };
+		EDC550A2233621580055B270 /* InfoViewInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55060233621570055B270 /* InfoViewInterector.swift */; };
+		EDC550A3233621580055B270 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55061233621570055B270 /* InfoViewController.swift */; };
+		EDC550A4233621580055B270 /* InfoViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55062233621570055B270 /* InfoViewRouter.swift */; };
+		EDC550A5233621580055B270 /* InfoViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55063233621570055B270 /* InfoViewPresenter.swift */; };
+		EDC550A6233621580055B270 /* InfoViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55065233621570055B270 /* InfoViewProtocols.swift */; };
+		EDC550E8233621DC0055B270 /* ProductAdditionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550A9233621AC0055B270 /* ProductAdditionPresenter.swift */; };
+		EDC550E9233621DC0055B270 /* ProductAdditionInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550AA233621AC0055B270 /* ProductAdditionInterector.swift */; };
+		EDC550EA233621DC0055B270 /* ProductAdditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550AB233621AC0055B270 /* ProductAdditionViewController.swift */; };
+		EDC550EB233621DC0055B270 /* ProductAdditionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550AC233621AC0055B270 /* ProductAdditionRouter.swift */; };
+		EDC550EC233621DC0055B270 /* ProductAdditionProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550AE233621AD0055B270 /* ProductAdditionProtocols.swift */; };
+		EDC550ED233621DC0055B270 /* ProjectDataInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550B1233621B20055B270 /* ProjectDataInterector.swift */; };
+		EDC550EE233621DC0055B270 /* ProjectDataRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550B2233621B20055B270 /* ProjectDataRouter.swift */; };
+		EDC550EF233621DC0055B270 /* ProjectDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550B3233621B20055B270 /* ProjectDataViewController.swift */; };
+		EDC550F0233621DC0055B270 /* ProjectDataPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550B4233621B20055B270 /* ProjectDataPresenter.swift */; };
+		EDC550F1233621DC0055B270 /* ProjectDataProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550B6233621B20055B270 /* ProjectDataProtocols.swift */; };
+		EDC550F2233621DC0055B270 /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550B9233621B90055B270 /* ProfilePresenter.swift */; };
+		EDC550F3233621DC0055B270 /* ProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550BA233621B90055B270 /* ProfileRouter.swift */; };
+		EDC550F4233621DC0055B270 /* ProfileInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550BB233621B90055B270 /* ProfileInterector.swift */; };
+		EDC550F5233621DC0055B270 /* ProfileEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550BC233621BA0055B270 /* ProfileEntities.swift */; };
+		EDC550F6233621DC0055B270 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550BD233621BA0055B270 /* LoginViewController.swift */; };
+		EDC550F7233621DC0055B270 /* ProfileProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550BF233621BA0055B270 /* ProfileProtocols.swift */; };
+		EDC550F8233621DC0055B270 /* SearchProjectsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550C2233621C50055B270 /* SearchProjectsRouter.swift */; };
+		EDC550F9233621DC0055B270 /* SearchProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550C3233621C50055B270 /* SearchProjectsViewController.swift */; };
+		EDC550FA233621DC0055B270 /* SearchProjectsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550C4233621C50055B270 /* SearchProjectsPresenter.swift */; };
+		EDC550FB233621DC0055B270 /* SearchProjectsInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550C5233621C50055B270 /* SearchProjectsInterector.swift */; };
+		EDC550FC233621DC0055B270 /* SearchProjectsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550C7233621C50055B270 /* SearchProjectsProtocols.swift */; };
+		EDC550FD233621DC0055B270 /* ProjectDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550CA233621CD0055B270 /* ProjectDetailsViewController.swift */; };
+		EDC550FE233621DC0055B270 /* ProjectDetailsInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550CB233621CD0055B270 /* ProjectDetailsInterector.swift */; };
+		EDC550FF233621DC0055B270 /* ProjectDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550CC233621CD0055B270 /* ProjectDetailsPresenter.swift */; };
+		EDC55100233621DC0055B270 /* ProjectDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550CD233621CD0055B270 /* ProjectDetailsRouter.swift */; };
+		EDC55101233621DC0055B270 /* ProjectDetailsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550CF233621CD0055B270 /* ProjectDetailsProtocols.swift */; };
+		EDC55102233621DC0055B270 /* SendMessageInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550D2233621D50055B270 /* SendMessageInterector.swift */; };
+		EDC55103233621DC0055B270 /* SendMessageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550D3233621D50055B270 /* SendMessageRouter.swift */; };
+		EDC55104233621DC0055B270 /* SendMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550D4233621D50055B270 /* SendMessageViewController.swift */; };
+		EDC55105233621DC0055B270 /* SendMessagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550D5233621D50055B270 /* SendMessagePresenter.swift */; };
+		EDC55106233621DC0055B270 /* SendMessageProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550D7233621D50055B270 /* SendMessageProtocols.swift */; };
+		EDC55107233621DC0055B270 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550DA233621D80055B270 /* ProductViewController.swift */; };
+		EDC55108233621DC0055B270 /* ProductViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550DB233621D80055B270 /* ProductViewRouter.swift */; };
+		EDC55109233621DC0055B270 /* ProductViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550DC233621D80055B270 /* ProductViewPresenter.swift */; };
+		EDC5510A233621DD0055B270 /* ProductViewInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550DD233621D80055B270 /* ProductViewInterector.swift */; };
+		EDC5510B233621DD0055B270 /* ProductViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550DF233621D80055B270 /* ProductViewProtocols.swift */; };
+		EDC5510C233621DD0055B270 /* ProDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550E2233621DB0055B270 /* ProDetailsViewController.swift */; };
+		EDC5510D233621DD0055B270 /* ProDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550E3233621DB0055B270 /* ProDetailsRouter.swift */; };
+		EDC5510E233621DD0055B270 /* ProDetailsInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550E4233621DB0055B270 /* ProDetailsInterector.swift */; };
+		EDC5510F233621DD0055B270 /* ProDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550E5233621DB0055B270 /* ProDetailsPresenter.swift */; };
+		EDC55110233621DD0055B270 /* ProDetailsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC550E7233621DB0055B270 /* ProDetailsProtocols.swift */; };
+		EDC551202336224B0055B270 /* UserRegisteration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC551122336223D0055B270 /* UserRegisteration.swift */; };
+		EDC551212336224B0055B270 /* UserLoginResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC551132336223D0055B270 /* UserLoginResult.swift */; };
+		EDC551222336224B0055B270 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC551142336223D0055B270 /* ProductCollectionViewCell.swift */; };
+		EDC551232336224B0055B270 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55116233622420055B270 /* DemoView.swift */; };
+		EDC551242336224B0055B270 /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55117233622420055B270 /* UIImage+Resize.swift */; };
+		EDC551252336224B0055B270 /* UIView+HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55118233622420055B270 /* UIView+HUD.swift */; };
+		EDC551262336224B0055B270 /* demoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55119233622420055B270 /* demoButton.swift */; };
+		EDC551272336224B0055B270 /* textField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5511A233622420055B270 /* textField.swift */; };
+		EDC551282336224B0055B270 /* CustomNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5511B233622420055B270 /* CustomNavController.swift */; };
+		EDC551292336224B0055B270 /* UIView+ConvertAsImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5511C233622420055B270 /* UIView+ConvertAsImage.swift */; };
+		EDC5512A2336224B0055B270 /* textView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5511D233622420055B270 /* textView.swift */; };
+		EDC5512C2336224B0055B270 /* FreeFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5511F2336224A0055B270 /* FreeFunction.swift */; };
+		EDC55153233625360055B270 /* ThirdTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5512F2336252B0055B270 /* ThirdTabViewController.swift */; };
+		EDC55154233625360055B270 /* ThirdTabPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC551302336252B0055B270 /* ThirdTabPresenter.swift */; };
+		EDC55155233625360055B270 /* ThirdTabRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC551312336252B0055B270 /* ThirdTabRouter.swift */; };
+		EDC55156233625360055B270 /* ThirdTabInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC551322336252B0055B270 /* ThirdTabInterector.swift */; };
+		EDC55157233625360055B270 /* ThirdTabProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC551342336252B0055B270 /* ThirdTabProtocols.swift */; };
+		EDC55158233625360055B270 /* TermsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC551372336252D0055B270 /* TermsRouter.swift */; };
+		EDC55159233625360055B270 /* Terms_ConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC551382336252D0055B270 /* Terms_ConditionsViewController.swift */; };
+		EDC5515A233625360055B270 /* TermsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC551392336252D0055B270 /* TermsPresenter.swift */; };
+		EDC5515B233625360055B270 /* TermsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5513B2336252D0055B270 /* TermsProtocols.swift */; };
+		EDC5515C233625360055B270 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5513E233625310055B270 /* ViewController2.swift */; };
+		EDC5515D233625370055B270 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5513F233625310055B270 /* SplashPresenter.swift */; };
+		EDC5515E233625370055B270 /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55140233625310055B270 /* SplashRouter.swift */; };
+		EDC5515F233625370055B270 /* SplashProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55142233625310055B270 /* SplashProtocols.swift */; };
+		EDC55160233625370055B270 /* UserProductsRoter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55145233625330055B270 /* UserProductsRoter.swift */; };
+		EDC55161233625370055B270 /* UserProductsInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55146233625330055B270 /* UserProductsInterector.swift */; };
+		EDC55162233625370055B270 /* UserProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55147233625330055B270 /* UserProductsViewController.swift */; };
+		EDC55163233625370055B270 /* UserProductsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55148233625330055B270 /* UserProductsPresenter.swift */; };
+		EDC55164233625370055B270 /* UserProductsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5514A233625330055B270 /* UserProductsProtocols.swift */; };
+		EDC55165233625370055B270 /* WelcomePagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5514D233625360055B270 /* WelcomePagePresenter.swift */; };
+		EDC55166233625370055B270 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5514E233625360055B270 /* WelcomeViewController.swift */; };
+		EDC55167233625370055B270 /* WelcomePageInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5514F233625360055B270 /* WelcomePageInterector.swift */; };
+		EDC55168233625370055B270 /* WelcomePageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55150233625360055B270 /* WelcomePageRouter.swift */; };
+		EDC55169233625370055B270 /* WelcomePageProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55152233625360055B270 /* WelcomePageProtocols.swift */; };
+		EDC5516B23362F110055B270 /* CheckboxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5516A23362F0F0055B270 /* CheckboxButton.swift */; };
+		EDC551712336C8D70055B270 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDC551732336C8D70055B270 /* Localizable.strings */; };
+		EDC5517823377E660055B270 /* ProjectInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDC5517523377E600055B270 /* ProjectInfoView.xib */; };
+		EDC5517923377E660055B270 /* ProjectDataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDC5517623377E620055B270 /* ProjectDataView.xib */; };
+		EDC5517A23377E660055B270 /* ProjectProductView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDC5517723377E630055B270 /* ProjectProductView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A0A83C627C951FD566512E3 /* Pods_NewIBety.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewIBety.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E9B6D8B6BA42003A2A60B5D /* Pods-NewIBety.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewIBety.debug.xcconfig"; path = "Target Support Files/Pods-NewIBety/Pods-NewIBety.debug.xcconfig"; sourceTree = "<group>"; };
+		7FCFD439AE91E6B5D3CCFDBE /* Pods-NewIBety.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewIBety.release.xcconfig"; path = "Target Support Files/Pods-NewIBety/Pods-NewIBety.release.xcconfig"; sourceTree = "<group>"; };
+		ED49628E2334B88F00919F61 /* NewIBety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewIBety.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4962912334B88F00919F61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED4962962334B88F00919F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED4962982334B89100919F61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED49629B2334B89100919F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED49629D2334B89100919F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4962A52334BBBA00919F61 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		EDC54F812334CA620055B270 /* PageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageControl.swift; path = "../../../Downloads/demo_Ibety-master/IBety-master-2-2-2-3/IBety/PageControl.swift"; sourceTree = "<group>"; };
+		EDC54F8F233606360055B270 /* AboutApplicationInterector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutApplicationInterector.swift; sourceTree = "<group>"; };
+		EDC54F91233606410055B270 /* AboutApplicationProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutApplicationProtocols.swift; sourceTree = "<group>"; };
+		EDC54F93233606640055B270 /* AboutApplicationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutApplicationPresenter.swift; sourceTree = "<group>"; };
+		EDC54F95233606960055B270 /* AboutApplicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutApplicationViewController.swift; sourceTree = "<group>"; };
+		EDC54F97233606B50055B270 /* AboutApplicationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutApplicationRouter.swift; sourceTree = "<group>"; };
+		EDC54FA923360BEC0055B270 /* L102Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L102Language.swift; sourceTree = "<group>"; };
+		EDC54FAA23360BED0055B270 /* L012Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L012Language.swift; sourceTree = "<group>"; };
+		EDC54FC123361CE30055B270 /* ParentViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewPresenter.swift; sourceTree = "<group>"; };
+		EDC54FC223361CE70055B270 /* ParentViewInterector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewInterector.swift; sourceTree = "<group>"; };
+		EDC54FC323361CEA0055B270 /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
+		EDC54FC423361CF20055B270 /* ParentViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewRouter.swift; sourceTree = "<group>"; };
+		EDC54FCB23361D320055B270 /* ParentViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewProtocols.swift; sourceTree = "<group>"; };
+		EDC54FD823361E1A0055B270 /* PartsCollectionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartsCollectionRouter.swift; sourceTree = "<group>"; };
+		EDC54FD923361E1F0055B270 /* PartsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartsCollectionViewController.swift; sourceTree = "<group>"; };
+		EDC54FDA23361E240055B270 /* PartsCollectionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartsCollectionPresenter.swift; sourceTree = "<group>"; };
+		EDC54FDB23361E280055B270 /* PartsCollectionInterector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartsCollectionInterector.swift; sourceTree = "<group>"; };
+		EDC54FE223361E570055B270 /* PartsCollectionProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartsCollectionProtocols.swift; sourceTree = "<group>"; };
+		EDC54FE723361EFA0055B270 /* IbetyInteractor+AccountCreate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IbetyInteractor+AccountCreate.swift"; sourceTree = "<group>"; };
+		EDC54FE823361EFB0055B270 /* AccountCreationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountCreationViewController.swift; sourceTree = "<group>"; };
+		EDC54FE923361EFC0055B270 /* IbetyPresenter+AccountCreate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IbetyPresenter+AccountCreate.swift"; sourceTree = "<group>"; };
+		EDC54FEA23361EFF0055B270 /* IbetyRouter+AccountCreate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IbetyRouter+AccountCreate.swift"; sourceTree = "<group>"; };
+		EDC54FEF23361F930055B270 /* AccountCreateProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountCreateProtocols.swift; sourceTree = "<group>"; };
+		EDC54FF3233620900055B270 /* AdvertisingInfoPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvertisingInfoPresenter.swift; sourceTree = "<group>"; };
+		EDC54FF4233620900055B270 /* AdvertisingInfoRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvertisingInfoRouter.swift; sourceTree = "<group>"; };
+		EDC54FF5233620900055B270 /* AdvertisingInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvertisingInfoViewController.swift; sourceTree = "<group>"; };
+		EDC54FF6233620900055B270 /* AdvertisingInfoInterector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvertisingInfoInterector.swift; sourceTree = "<group>"; };
+		EDC54FF8233620900055B270 /* AdvertisingInfoProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvertisingInfoProtocols.swift; sourceTree = "<group>"; };
+		EDC550002336213A0055B270 /* MyProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProductViewController.swift; sourceTree = "<group>"; };
+		EDC550012336213A0055B270 /* MyProductsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProductsPresenter.swift; sourceTree = "<group>"; };
+		EDC550022336213A0055B270 /* MyProductsInterector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProductsInterector.swift; sourceTree = "<group>"; };
+		EDC550032336213A0055B270 /* MyProductsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProductsRouter.swift; sourceTree = "<group>"; };
+		EDC550052336213A0055B270 /* MyProductsProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProductsProtocols.swift; sourceTree = "<group>"; };
+		EDC550082336213C0055B270 /* CommunicateDetailsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicateDetailsPresenter.swift; sourceTree = "<group>"; };
+		EDC550092336213C0055B270 /* CommunicateDetailsInterector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicateDetailsInterector.swift; sourceTree = "<group>"; };
+		EDC5500A2336213C0055B270 /* CommunicateDetailsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicateDetailsRouter.swift; sourceTree = "<group>"; };
+		EDC5500B2336213C0055B270 /* CommunicateDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicateDetailsViewController.swift; sourceTree = "<group>"; };
+		EDC5500D2336213C0055B270 /* CommunicateDetailsProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicateDetailsProtocol.swift; sourceTree = "<group>"; };
+		EDC550102336213D0055B270 /* IbetyPresenter+LoginPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IbetyPresenter+LoginPage.swift"; sourceTree = "<group>"; };
+		EDC550112336213D0055B270 /* Login1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login1ViewController.swift; sourceTree = "<group>"; };
+		EDC550122336213D0055B270 /* IbetyInterector+LoginPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IbetyInterector+LoginPage.swift"; sourceTree = "<group>"; };
+		EDC550132336213D0055B270 /* LoginRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		EDC550152336213D0055B270 /* LoginPageProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPageProtocols.swift; sourceTree = "<group>"; };
+		EDC55018233621400055B270 /* LanguageRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageRouter.swift; sourceTree = "<group>"; };
+		EDC55019233621400055B270 /* LanguageInterector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageInterector.swift; sourceTree = "<group>"; };
+		EDC5501A233621400055B270 /* LanguagePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguagePresenter.swift; sourceTree = "<group>"; };
+		EDC5501B233621400055B270 /* LanguageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
+		EDC5501D233621400055B270 /* LanguageProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageProtocols.swift; sourceTree = "<group>"; };
+		EDC55020233621420055B270 /* CommunicationInterector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicationInterector.swift; sourceTree = "<group>"; };
+		EDC55021233621420055B270 /* CommunicationRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicationRouter.swift; sourceTree = "<group>"; };
+		EDC55022233621420055B270 /* CommunicationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicationViewController.swift; sourceTree = "<group>"; };
+		EDC55023233621420055B270 /* CommunicationPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicationPresenter.swift; sourceTree = "<group>"; };
+		EDC55025233621420055B270 /* CommunicationProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicationProtocols.swift; sourceTree = "<group>"; };
+		EDC55028233621440055B270 /* MyDetailsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDetailsRouter.swift; sourceTree = "<group>"; };
+		EDC55029233621440055B270 /* MyDetailsInterector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDetailsInterector.swift; sourceTree = "<group>"; };
+		EDC5502A233621440055B270 /* MyDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDetailsViewController.swift; sourceTree = "<group>"; };
+		EDC5502B233621440055B270 /* MyDetailsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDetailsPresenter.swift; sourceTree = "<group>"; };
+		EDC5502D233621440055B270 /* MyDetailsProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDetailsProtocols.swift; sourceTree = "<group>"; };
+		EDC55030233621450055B270 /* FirstTabRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTabRouter.swift; sourceTree = "<group>"; };
+		EDC55031233621450055B270 /* FirstTabInterector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTabInterector.swift; sourceTree = "<group>"; };
+		EDC55032233621450055B270 /* FirstTabPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTabPresenter.swift; sourceTree = "<group>"; };
+		EDC55033233621450055B270 /* FirstTABViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTABViewController.swift; sourceTree = "<group>"; };
+		EDC55035233621450055B270 /* FirstTabProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTabProtocols.swift; sourceTree = "<group>"; };
+		EDC55038233621480055B270 /* Name_PasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Name_PasswordViewController.swift; sourceTree = "<group>"; };
+		EDC55039233621480055B270 /* Name_PasswordRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Name_PasswordRouter.swift; sourceTree = "<group>"; };
+		EDC5503A233621480055B270 /* Name_PasswordInterector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Name_PasswordInterector.swift; sourceTree = "<group>"; };
+		EDC5503B233621480055B270 /* Name_PasswordPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Name_PasswordPresenter.swift; sourceTree = "<group>"; };
+		EDC5503D233621480055B270 /* Name_PasswordProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Name_PasswordProtocols.swift; sourceTree = "<group>"; };
+		EDC550402336214B0055B270 /* NotificationsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsPresenter.swift; sourceTree = "<group>"; };
+		EDC550412336214B0055B270 /* NotificationsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsRouter.swift; sourceTree = "<group>"; };
+		EDC550422336214B0055B270 /* NotificationsInterector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsInterector.swift; sourceTree = "<group>"; };
+		EDC550432336214B0055B270 /* NotificationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTableViewController.swift; sourceTree = "<group>"; };
+		EDC550452336214C0055B270 /* NotificationsProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsProtocols.swift; sourceTree = "<group>"; };
+		EDC550482336214F0055B270 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		EDC550492336214F0055B270 /* IbetyPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IbetyPresenter.swift; sourceTree = "<group>"; };
+		EDC5504A2336214F0055B270 /* InteractorClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorClass.swift; sourceTree = "<group>"; };
+		EDC5504B2336214F0055B270 /* IbetyRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IbetyRouter.swift; sourceTree = "<group>"; };
+		EDC5504D2336214F0055B270 /* protocolClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = protocolClass.swift; sourceTree = "<group>"; };
+		EDC55050233621510055B270 /* MyProjectPartsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProjectPartsRouter.swift; sourceTree = "<group>"; };
+		EDC55051233621510055B270 /* MyProjectPartsInterector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProjectPartsInterector.swift; sourceTree = "<group>"; };
+		EDC55052233621510055B270 /* MyProjectPartsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProjectPartsViewController.swift; sourceTree = "<group>"; };
+		EDC55053233621510055B270 /* MyProjectPartsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProjectPartsPresenter.swift; sourceTree = "<group>"; };
+		EDC55055233621510055B270 /* MyProjectPartsProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProjectPartsProtocols.swift; sourceTree = "<group>"; };
+		EDC55058233621530055B270 /* FourTabPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourTabPresenter.swift; sourceTree = "<group>"; };
+		EDC55059233621530055B270 /* FourTabRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourTabRouter.swift; sourceTree = "<group>"; };
+		EDC5505A233621530055B270 /* FourTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourTabViewController.swift; sourceTree = "<group>"; };
+		EDC5505B233621530055B270 /* FourTabInterector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourTabInterector.swift; sourceTree = "<group>"; };
+		EDC5505D233621530055B270 /* FourTabProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourTabProtocols.swift; sourceTree = "<group>"; };
+		EDC55060233621570055B270 /* InfoViewInterector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewInterector.swift; sourceTree = "<group>"; };
+		EDC55061233621570055B270 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		EDC55062233621570055B270 /* InfoViewRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewRouter.swift; sourceTree = "<group>"; };
+		EDC55063233621570055B270 /* InfoViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewPresenter.swift; sourceTree = "<group>"; };
+		EDC55065233621570055B270 /* InfoViewProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewProtocols.swift; sourceTree = "<group>"; };
+		EDC550A9233621AC0055B270 /* ProductAdditionPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductAdditionPresenter.swift; sourceTree = "<group>"; };
+		EDC550AA233621AC0055B270 /* ProductAdditionInterector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductAdditionInterector.swift; sourceTree = "<group>"; };
+		EDC550AB233621AC0055B270 /* ProductAdditionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductAdditionViewController.swift; sourceTree = "<group>"; };
+		EDC550AC233621AC0055B270 /* ProductAdditionRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductAdditionRouter.swift; sourceTree = "<group>"; };
+		EDC550AE233621AD0055B270 /* ProductAdditionProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductAdditionProtocols.swift; sourceTree = "<group>"; };
+		EDC550B1233621B20055B270 /* ProjectDataInterector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDataInterector.swift; sourceTree = "<group>"; };
+		EDC550B2233621B20055B270 /* ProjectDataRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDataRouter.swift; sourceTree = "<group>"; };
+		EDC550B3233621B20055B270 /* ProjectDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDataViewController.swift; sourceTree = "<group>"; };
+		EDC550B4233621B20055B270 /* ProjectDataPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDataPresenter.swift; sourceTree = "<group>"; };
+		EDC550B6233621B20055B270 /* ProjectDataProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDataProtocols.swift; sourceTree = "<group>"; };
+		EDC550B9233621B90055B270 /* ProfilePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
+		EDC550BA233621B90055B270 /* ProfileRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileRouter.swift; sourceTree = "<group>"; };
+		EDC550BB233621B90055B270 /* ProfileInterector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileInterector.swift; sourceTree = "<group>"; };
+		EDC550BC233621BA0055B270 /* ProfileEntities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileEntities.swift; sourceTree = "<group>"; };
+		EDC550BD233621BA0055B270 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EDC550BF233621BA0055B270 /* ProfileProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileProtocols.swift; sourceTree = "<group>"; };
+		EDC550C2233621C50055B270 /* SearchProjectsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchProjectsRouter.swift; sourceTree = "<group>"; };
+		EDC550C3233621C50055B270 /* SearchProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchProjectsViewController.swift; sourceTree = "<group>"; };
+		EDC550C4233621C50055B270 /* SearchProjectsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchProjectsPresenter.swift; sourceTree = "<group>"; };
+		EDC550C5233621C50055B270 /* SearchProjectsInterector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchProjectsInterector.swift; sourceTree = "<group>"; };
+		EDC550C7233621C50055B270 /* SearchProjectsProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchProjectsProtocols.swift; sourceTree = "<group>"; };
+		EDC550CA233621CD0055B270 /* ProjectDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDetailsViewController.swift; sourceTree = "<group>"; };
+		EDC550CB233621CD0055B270 /* ProjectDetailsInterector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDetailsInterector.swift; sourceTree = "<group>"; };
+		EDC550CC233621CD0055B270 /* ProjectDetailsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDetailsPresenter.swift; sourceTree = "<group>"; };
+		EDC550CD233621CD0055B270 /* ProjectDetailsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDetailsRouter.swift; sourceTree = "<group>"; };
+		EDC550CF233621CD0055B270 /* ProjectDetailsProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDetailsProtocols.swift; sourceTree = "<group>"; };
+		EDC550D2233621D50055B270 /* SendMessageInterector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendMessageInterector.swift; sourceTree = "<group>"; };
+		EDC550D3233621D50055B270 /* SendMessageRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendMessageRouter.swift; sourceTree = "<group>"; };
+		EDC550D4233621D50055B270 /* SendMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendMessageViewController.swift; sourceTree = "<group>"; };
+		EDC550D5233621D50055B270 /* SendMessagePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendMessagePresenter.swift; sourceTree = "<group>"; };
+		EDC550D7233621D50055B270 /* SendMessageProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendMessageProtocols.swift; sourceTree = "<group>"; };
+		EDC550DA233621D80055B270 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		EDC550DB233621D80055B270 /* ProductViewRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewRouter.swift; sourceTree = "<group>"; };
+		EDC550DC233621D80055B270 /* ProductViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewPresenter.swift; sourceTree = "<group>"; };
+		EDC550DD233621D80055B270 /* ProductViewInterector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewInterector.swift; sourceTree = "<group>"; };
+		EDC550DF233621D80055B270 /* ProductViewProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewProtocols.swift; sourceTree = "<group>"; };
+		EDC550E2233621DB0055B270 /* ProDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProDetailsViewController.swift; sourceTree = "<group>"; };
+		EDC550E3233621DB0055B270 /* ProDetailsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProDetailsRouter.swift; sourceTree = "<group>"; };
+		EDC550E4233621DB0055B270 /* ProDetailsInterector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProDetailsInterector.swift; sourceTree = "<group>"; };
+		EDC550E5233621DB0055B270 /* ProDetailsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProDetailsPresenter.swift; sourceTree = "<group>"; };
+		EDC550E7233621DB0055B270 /* ProDetailsProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProDetailsProtocols.swift; sourceTree = "<group>"; };
+		EDC551122336223D0055B270 /* UserRegisteration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRegisteration.swift; sourceTree = "<group>"; };
+		EDC551132336223D0055B270 /* UserLoginResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLoginResult.swift; sourceTree = "<group>"; };
+		EDC551142336223D0055B270 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		EDC55116233622420055B270 /* DemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
+		EDC55117233622420055B270 /* UIImage+Resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
+		EDC55118233622420055B270 /* UIView+HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+HUD.swift"; sourceTree = "<group>"; };
+		EDC55119233622420055B270 /* demoButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = demoButton.swift; sourceTree = "<group>"; };
+		EDC5511A233622420055B270 /* textField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = textField.swift; sourceTree = "<group>"; };
+		EDC5511B233622420055B270 /* CustomNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavController.swift; sourceTree = "<group>"; };
+		EDC5511C233622420055B270 /* UIView+ConvertAsImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ConvertAsImage.swift"; sourceTree = "<group>"; };
+		EDC5511D233622420055B270 /* textView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = textView.swift; sourceTree = "<group>"; };
+		EDC5511F2336224A0055B270 /* FreeFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeFunction.swift; sourceTree = "<group>"; };
+		EDC5512F2336252B0055B270 /* ThirdTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdTabViewController.swift; sourceTree = "<group>"; };
+		EDC551302336252B0055B270 /* ThirdTabPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdTabPresenter.swift; sourceTree = "<group>"; };
+		EDC551312336252B0055B270 /* ThirdTabRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdTabRouter.swift; sourceTree = "<group>"; };
+		EDC551322336252B0055B270 /* ThirdTabInterector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdTabInterector.swift; sourceTree = "<group>"; };
+		EDC551342336252B0055B270 /* ThirdTabProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdTabProtocols.swift; sourceTree = "<group>"; };
+		EDC551372336252D0055B270 /* TermsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsRouter.swift; sourceTree = "<group>"; };
+		EDC551382336252D0055B270 /* Terms_ConditionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Terms_ConditionsViewController.swift; sourceTree = "<group>"; };
+		EDC551392336252D0055B270 /* TermsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsPresenter.swift; sourceTree = "<group>"; };
+		EDC5513B2336252D0055B270 /* TermsProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsProtocols.swift; sourceTree = "<group>"; };
+		EDC5513E233625310055B270 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		EDC5513F233625310055B270 /* SplashPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
+		EDC55140233625310055B270 /* SplashRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashRouter.swift; sourceTree = "<group>"; };
+		EDC55142233625310055B270 /* SplashProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashProtocols.swift; sourceTree = "<group>"; };
+		EDC55145233625330055B270 /* UserProductsRoter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProductsRoter.swift; sourceTree = "<group>"; };
+		EDC55146233625330055B270 /* UserProductsInterector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProductsInterector.swift; sourceTree = "<group>"; };
+		EDC55147233625330055B270 /* UserProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProductsViewController.swift; sourceTree = "<group>"; };
+		EDC55148233625330055B270 /* UserProductsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProductsPresenter.swift; sourceTree = "<group>"; };
+		EDC5514A233625330055B270 /* UserProductsProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProductsProtocols.swift; sourceTree = "<group>"; };
+		EDC5514D233625360055B270 /* WelcomePagePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomePagePresenter.swift; sourceTree = "<group>"; };
+		EDC5514E233625360055B270 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		EDC5514F233625360055B270 /* WelcomePageInterector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomePageInterector.swift; sourceTree = "<group>"; };
+		EDC55150233625360055B270 /* WelcomePageRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomePageRouter.swift; sourceTree = "<group>"; };
+		EDC55152233625360055B270 /* WelcomePageProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomePageProtocols.swift; sourceTree = "<group>"; };
+		EDC5516A23362F0F0055B270 /* CheckboxButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckboxButton.swift; sourceTree = "<group>"; };
+		EDC5516D233656E40055B270 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		EDC5516E233656E60055B270 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		EDC551722336C8D70055B270 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EDC551742336C8DF0055B270 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EDC5517523377E600055B270 /* ProjectInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProjectInfoView.xib; sourceTree = "<group>"; };
+		EDC5517623377E620055B270 /* ProjectDataView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProjectDataView.xib; sourceTree = "<group>"; };
+		EDC5517723377E630055B270 /* ProjectProductView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProjectProductView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED49628B2334B88E00919F61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB2AC28BB110576E8938ADF /* Pods_NewIBety.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183AB730B2416BF12D799059 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E9B6D8B6BA42003A2A60B5D /* Pods-NewIBety.debug.xcconfig */,
+				7FCFD439AE91E6B5D3CCFDBE /* Pods-NewIBety.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2012E03045706F77379B90C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A0A83C627C951FD566512E3 /* Pods_NewIBety.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED4962852334B88E00919F61 = {
+			isa = PBXGroup;
+			children = (
+				ED4962A52334BBBA00919F61 /* Podfile */,
+				ED4962902334B88F00919F61 /* NewIBety */,
+				ED49628F2334B88F00919F61 /* Products */,
+				183AB730B2416BF12D799059 /* Pods */,
+				2012E03045706F77379B90C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED49628F2334B88F00919F61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED49628E2334B88F00919F61 /* NewIBety.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED4962902334B88F00919F61 /* NewIBety */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5516C23363F560055B270 /* Languages */,
+				EDC54F99233607F20055B270 /* Sources */,
+				ED4962912334B88F00919F61 /* AppDelegate.swift */,
+				EDC5517623377E620055B270 /* ProjectDataView.xib */,
+				EDC5517523377E600055B270 /* ProjectInfoView.xib */,
+				EDC5517723377E630055B270 /* ProjectProductView.xib */,
+				ED4962952334B88F00919F61 /* Main.storyboard */,
+				EDC551112336223D0055B270 /* Entities */,
+				EDC55115233622420055B270 /* Extensions */,
+				EDC5511F2336224A0055B270 /* FreeFunction.swift */,
+				EDC5516A23362F0F0055B270 /* CheckboxButton.swift */,
+				EDC54F812334CA620055B270 /* PageControl.swift */,
+				ED4962982334B89100919F61 /* Assets.xcassets */,
+				ED49629A2334B89100919F61 /* LaunchScreen.storyboard */,
+				ED49629D2334B89100919F61 /* Info.plist */,
+			);
+			path = NewIBety;
+			sourceTree = "<group>";
+		};
+		EDC54F99233607F20055B270 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EDC54FB123361A040055B270 /* Modules */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		EDC54F9A233609C10055B270 /* AboutApplicationScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDC54F9C233609DD0055B270 /* Implementations */,
+				EDC54F9B233609D30055B270 /* Interfaces */,
+			);
+			path = AboutApplicationScreen;
+			sourceTree = "<group>";
+		};
+		EDC54F9B233609D30055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC54F91233606410055B270 /* AboutApplicationProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC54F9C233609DD0055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC54F8F233606360055B270 /* AboutApplicationInterector.swift */,
+				EDC54F93233606640055B270 /* AboutApplicationPresenter.swift */,
+				EDC54F95233606960055B270 /* AboutApplicationViewController.swift */,
+				EDC54F97233606B50055B270 /* AboutApplicationRouter.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC54FB123361A040055B270 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5513C233625310055B270 /* SplashScreen */,
+				EDC551352336252D0055B270 /* Terms_ConditionsScreen */,
+				EDC5512D2336252B0055B270 /* ThirdTabScreen */,
+				EDC55143233625330055B270 /* UserProducts */,
+				EDC5514B233625360055B270 /* WelcomePage */,
+				EDC550B7233621B90055B270 /* PersonallyProfile */,
+				EDC550E0233621DB0055B270 /* ProDetailsPage */,
+				EDC550A7233621AC0055B270 /* ProductAdditionScreen */,
+				EDC550D8233621D80055B270 /* ProductViewScreen */,
+				EDC550C8233621CD0055B270 /* ProjectDetailsScreen */,
+				EDC550AF233621B20055B270 /* ProjectsDataScreen */,
+				EDC550C0233621C50055B270 /* SearchProjectsScreen */,
+				EDC550D0233621D50055B270 /* SendMessageScreen */,
+				EDC550062336213C0055B270 /* CommunicateDetailsScreen */,
+				EDC5501E233621420055B270 /* CommunicationScreen */,
+				EDC550462336214F0055B270 /* FirstView */,
+				EDC55056233621530055B270 /* FourTabScreen */,
+				EDC5505E233621570055B270 /* InfoViewScreen */,
+				EDC55016233621400055B270 /* LanguageScreen */,
+				EDC5500E2336213D0055B270 /* LoginPage */,
+				EDC5502E233621450055B270 /* FirstTabPage */,
+				EDC55026233621440055B270 /* MyDetailsScreen */,
+				EDC54FFE2336213A0055B270 /* MyProductsScreen */,
+				EDC5504E233621510055B270 /* MyProjectPartsScreen */,
+				EDC55036233621480055B270 /* Name_PasswordScreen */,
+				EDC5503E2336214B0055B270 /* NotificationsScreen */,
+				EDC54FF1233620900055B270 /* AdvertisingInfoScreen */,
+				EDC54FE423361EC80055B270 /* AccountCreationPage */,
+				EDC54FCD23361DB60055B270 /* PartsCollectionPage */,
+				EDC54F9A233609C10055B270 /* AboutApplicationScreen */,
+				EDC54FB223361A290055B270 /* ParentViewScreen */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		EDC54FB223361A290055B270 /* ParentViewScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDC54FB823361BB60055B270 /* Interfaces */,
+				EDC54FB723361B2A0055B270 /* Implementations */,
+			);
+			path = ParentViewScreen;
+			sourceTree = "<group>";
+		};
+		EDC54FB723361B2A0055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC54FC323361CEA0055B270 /* ParentViewController.swift */,
+				EDC54FC423361CF20055B270 /* ParentViewRouter.swift */,
+				EDC54FC223361CE70055B270 /* ParentViewInterector.swift */,
+				EDC54FC123361CE30055B270 /* ParentViewPresenter.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC54FB823361BB60055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC54FCB23361D320055B270 /* ParentViewProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC54FCD23361DB60055B270 /* PartsCollectionPage */ = {
+			isa = PBXGroup;
+			children = (
+				EDC54FCF23361DD90055B270 /* Implementations */,
+				EDC54FCE23361DCF0055B270 /* Interfaces */,
+			);
+			path = PartsCollectionPage;
+			sourceTree = "<group>";
+		};
+		EDC54FCE23361DCF0055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC54FE223361E570055B270 /* PartsCollectionProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC54FCF23361DD90055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC54FDB23361E280055B270 /* PartsCollectionInterector.swift */,
+				EDC54FDA23361E240055B270 /* PartsCollectionPresenter.swift */,
+				EDC54FD823361E1A0055B270 /* PartsCollectionRouter.swift */,
+				EDC54FD923361E1F0055B270 /* PartsCollectionViewController.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC54FE423361EC80055B270 /* AccountCreationPage */ = {
+			isa = PBXGroup;
+			children = (
+				EDC54FE623361EDE0055B270 /* Interfaces */,
+				EDC54FE523361ED20055B270 /* Implementations */,
+			);
+			path = AccountCreationPage;
+			sourceTree = "<group>";
+		};
+		EDC54FE523361ED20055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC54FE823361EFB0055B270 /* AccountCreationViewController.swift */,
+				EDC54FE723361EFA0055B270 /* IbetyInteractor+AccountCreate.swift */,
+				EDC54FE923361EFC0055B270 /* IbetyPresenter+AccountCreate.swift */,
+				EDC54FEA23361EFF0055B270 /* IbetyRouter+AccountCreate.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC54FE623361EDE0055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC54FEF23361F930055B270 /* AccountCreateProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC54FF1233620900055B270 /* AdvertisingInfoScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDC54FF2233620900055B270 /* Implementations */,
+				EDC54FF7233620900055B270 /* Interfaces */,
+			);
+			path = AdvertisingInfoScreen;
+			sourceTree = "<group>";
+		};
+		EDC54FF2233620900055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC54FF3233620900055B270 /* AdvertisingInfoPresenter.swift */,
+				EDC54FF4233620900055B270 /* AdvertisingInfoRouter.swift */,
+				EDC54FF5233620900055B270 /* AdvertisingInfoViewController.swift */,
+				EDC54FF6233620900055B270 /* AdvertisingInfoInterector.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC54FF7233620900055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC54FF8233620900055B270 /* AdvertisingInfoProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC54FFE2336213A0055B270 /* MyProductsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDC54FFF2336213A0055B270 /* Implementations */,
+				EDC550042336213A0055B270 /* Interfaces */,
+			);
+			path = MyProductsScreen;
+			sourceTree = "<group>";
+		};
+		EDC54FFF2336213A0055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550002336213A0055B270 /* MyProductViewController.swift */,
+				EDC550012336213A0055B270 /* MyProductsPresenter.swift */,
+				EDC550022336213A0055B270 /* MyProductsInterector.swift */,
+				EDC550032336213A0055B270 /* MyProductsRouter.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC550042336213A0055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550052336213A0055B270 /* MyProductsProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC550062336213C0055B270 /* CommunicateDetailsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550072336213C0055B270 /* Implementations */,
+				EDC5500C2336213C0055B270 /* Interfaces */,
+			);
+			path = CommunicateDetailsScreen;
+			sourceTree = "<group>";
+		};
+		EDC550072336213C0055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550082336213C0055B270 /* CommunicateDetailsPresenter.swift */,
+				EDC550092336213C0055B270 /* CommunicateDetailsInterector.swift */,
+				EDC5500A2336213C0055B270 /* CommunicateDetailsRouter.swift */,
+				EDC5500B2336213C0055B270 /* CommunicateDetailsViewController.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC5500C2336213C0055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5500D2336213C0055B270 /* CommunicateDetailsProtocol.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC5500E2336213D0055B270 /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5500F2336213D0055B270 /* Implementations */,
+				EDC550142336213D0055B270 /* Interfaces */,
+			);
+			path = LoginPage;
+			sourceTree = "<group>";
+		};
+		EDC5500F2336213D0055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550102336213D0055B270 /* IbetyPresenter+LoginPage.swift */,
+				EDC550112336213D0055B270 /* Login1ViewController.swift */,
+				EDC550122336213D0055B270 /* IbetyInterector+LoginPage.swift */,
+				EDC550132336213D0055B270 /* LoginRouter.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC550142336213D0055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550152336213D0055B270 /* LoginPageProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC55016233621400055B270 /* LanguageScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDC55017233621400055B270 /* Implementations */,
+				EDC5501C233621400055B270 /* Interfaces */,
+			);
+			path = LanguageScreen;
+			sourceTree = "<group>";
+		};
+		EDC55017233621400055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC55018233621400055B270 /* LanguageRouter.swift */,
+				EDC55019233621400055B270 /* LanguageInterector.swift */,
+				EDC5501A233621400055B270 /* LanguagePresenter.swift */,
+				EDC5501B233621400055B270 /* LanguageViewController.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC5501C233621400055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5501D233621400055B270 /* LanguageProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC5501E233621420055B270 /* CommunicationScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5501F233621420055B270 /* Implementations */,
+				EDC55024233621420055B270 /* Interfaces */,
+			);
+			path = CommunicationScreen;
+			sourceTree = "<group>";
+		};
+		EDC5501F233621420055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC55020233621420055B270 /* CommunicationInterector.swift */,
+				EDC55021233621420055B270 /* CommunicationRouter.swift */,
+				EDC55022233621420055B270 /* CommunicationViewController.swift */,
+				EDC55023233621420055B270 /* CommunicationPresenter.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC55024233621420055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC55025233621420055B270 /* CommunicationProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC55026233621440055B270 /* MyDetailsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDC55027233621440055B270 /* Implementations */,
+				EDC5502C233621440055B270 /* Interfaces */,
+			);
+			path = MyDetailsScreen;
+			sourceTree = "<group>";
+		};
+		EDC55027233621440055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC55028233621440055B270 /* MyDetailsRouter.swift */,
+				EDC55029233621440055B270 /* MyDetailsInterector.swift */,
+				EDC5502A233621440055B270 /* MyDetailsViewController.swift */,
+				EDC5502B233621440055B270 /* MyDetailsPresenter.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC5502C233621440055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5502D233621440055B270 /* MyDetailsProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC5502E233621450055B270 /* FirstTabPage */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5502F233621450055B270 /* Implementations */,
+				EDC55034233621450055B270 /* Interfaces */,
+			);
+			path = FirstTabPage;
+			sourceTree = "<group>";
+		};
+		EDC5502F233621450055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC55030233621450055B270 /* FirstTabRouter.swift */,
+				EDC55031233621450055B270 /* FirstTabInterector.swift */,
+				EDC55032233621450055B270 /* FirstTabPresenter.swift */,
+				EDC55033233621450055B270 /* FirstTABViewController.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC55034233621450055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC55035233621450055B270 /* FirstTabProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC55036233621480055B270 /* Name_PasswordScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDC55037233621480055B270 /* Implementations */,
+				EDC5503C233621480055B270 /* Interfaces */,
+			);
+			path = Name_PasswordScreen;
+			sourceTree = "<group>";
+		};
+		EDC55037233621480055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC55038233621480055B270 /* Name_PasswordViewController.swift */,
+				EDC55039233621480055B270 /* Name_PasswordRouter.swift */,
+				EDC5503A233621480055B270 /* Name_PasswordInterector.swift */,
+				EDC5503B233621480055B270 /* Name_PasswordPresenter.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC5503C233621480055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5503D233621480055B270 /* Name_PasswordProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC5503E2336214B0055B270 /* NotificationsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5503F2336214B0055B270 /* Implementations */,
+				EDC550442336214C0055B270 /* Interfaces */,
+			);
+			path = NotificationsScreen;
+			sourceTree = "<group>";
+		};
+		EDC5503F2336214B0055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550402336214B0055B270 /* NotificationsPresenter.swift */,
+				EDC550412336214B0055B270 /* NotificationsRouter.swift */,
+				EDC550422336214B0055B270 /* NotificationsInterector.swift */,
+				EDC550432336214B0055B270 /* NotificationTableViewController.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC550442336214C0055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550452336214C0055B270 /* NotificationsProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC550462336214F0055B270 /* FirstView */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550472336214F0055B270 /* Implementations */,
+				EDC5504C2336214F0055B270 /* Interfaces */,
+			);
+			path = FirstView;
+			sourceTree = "<group>";
+		};
+		EDC550472336214F0055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550482336214F0055B270 /* FirstViewController.swift */,
+				EDC550492336214F0055B270 /* IbetyPresenter.swift */,
+				EDC5504A2336214F0055B270 /* InteractorClass.swift */,
+				EDC5504B2336214F0055B270 /* IbetyRouter.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC5504C2336214F0055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5504D2336214F0055B270 /* protocolClass.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC5504E233621510055B270 /* MyProjectPartsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5504F233621510055B270 /* Implementations */,
+				EDC55054233621510055B270 /* Interfaces */,
+			);
+			path = MyProjectPartsScreen;
+			sourceTree = "<group>";
+		};
+		EDC5504F233621510055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC55050233621510055B270 /* MyProjectPartsRouter.swift */,
+				EDC55051233621510055B270 /* MyProjectPartsInterector.swift */,
+				EDC55052233621510055B270 /* MyProjectPartsViewController.swift */,
+				EDC55053233621510055B270 /* MyProjectPartsPresenter.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC55054233621510055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC55055233621510055B270 /* MyProjectPartsProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC55056233621530055B270 /* FourTabScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDC55057233621530055B270 /* Implementations */,
+				EDC5505C233621530055B270 /* Interfaces */,
+			);
+			path = FourTabScreen;
+			sourceTree = "<group>";
+		};
+		EDC55057233621530055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC55058233621530055B270 /* FourTabPresenter.swift */,
+				EDC55059233621530055B270 /* FourTabRouter.swift */,
+				EDC5505A233621530055B270 /* FourTabViewController.swift */,
+				EDC5505B233621530055B270 /* FourTabInterector.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC5505C233621530055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5505D233621530055B270 /* FourTabProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC5505E233621570055B270 /* InfoViewScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5505F233621570055B270 /* Implementations */,
+				EDC55064233621570055B270 /* Interfaces */,
+			);
+			path = InfoViewScreen;
+			sourceTree = "<group>";
+		};
+		EDC5505F233621570055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC55060233621570055B270 /* InfoViewInterector.swift */,
+				EDC55061233621570055B270 /* InfoViewController.swift */,
+				EDC55062233621570055B270 /* InfoViewRouter.swift */,
+				EDC55063233621570055B270 /* InfoViewPresenter.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC55064233621570055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC55065233621570055B270 /* InfoViewProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC550A7233621AC0055B270 /* ProductAdditionScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550A8233621AC0055B270 /* Implementations */,
+				EDC550AD233621AD0055B270 /* Interfaces */,
+			);
+			path = ProductAdditionScreen;
+			sourceTree = "<group>";
+		};
+		EDC550A8233621AC0055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550A9233621AC0055B270 /* ProductAdditionPresenter.swift */,
+				EDC550AA233621AC0055B270 /* ProductAdditionInterector.swift */,
+				EDC550AB233621AC0055B270 /* ProductAdditionViewController.swift */,
+				EDC550AC233621AC0055B270 /* ProductAdditionRouter.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC550AD233621AD0055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550AE233621AD0055B270 /* ProductAdditionProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC550AF233621B20055B270 /* ProjectsDataScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550B0233621B20055B270 /* Implementations */,
+				EDC550B5233621B20055B270 /* Interfaces */,
+			);
+			path = ProjectsDataScreen;
+			sourceTree = "<group>";
+		};
+		EDC550B0233621B20055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550B1233621B20055B270 /* ProjectDataInterector.swift */,
+				EDC550B2233621B20055B270 /* ProjectDataRouter.swift */,
+				EDC550B3233621B20055B270 /* ProjectDataViewController.swift */,
+				EDC550B4233621B20055B270 /* ProjectDataPresenter.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC550B5233621B20055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550B6233621B20055B270 /* ProjectDataProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC550B7233621B90055B270 /* PersonallyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550B8233621B90055B270 /* Implementations */,
+				EDC550BE233621BA0055B270 /* Interfaces */,
+			);
+			path = PersonallyProfile;
+			sourceTree = "<group>";
+		};
+		EDC550B8233621B90055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550B9233621B90055B270 /* ProfilePresenter.swift */,
+				EDC550BA233621B90055B270 /* ProfileRouter.swift */,
+				EDC550BB233621B90055B270 /* ProfileInterector.swift */,
+				EDC550BC233621BA0055B270 /* ProfileEntities.swift */,
+				EDC550BD233621BA0055B270 /* LoginViewController.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC550BE233621BA0055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550BF233621BA0055B270 /* ProfileProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC550C0233621C50055B270 /* SearchProjectsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550C1233621C50055B270 /* Implementations */,
+				EDC550C6233621C50055B270 /* Interfaces */,
+			);
+			path = SearchProjectsScreen;
+			sourceTree = "<group>";
+		};
+		EDC550C1233621C50055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550C2233621C50055B270 /* SearchProjectsRouter.swift */,
+				EDC550C3233621C50055B270 /* SearchProjectsViewController.swift */,
+				EDC550C4233621C50055B270 /* SearchProjectsPresenter.swift */,
+				EDC550C5233621C50055B270 /* SearchProjectsInterector.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC550C6233621C50055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550C7233621C50055B270 /* SearchProjectsProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC550C8233621CD0055B270 /* ProjectDetailsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550C9233621CD0055B270 /* Implementations */,
+				EDC550CE233621CD0055B270 /* Interfaces */,
+			);
+			path = ProjectDetailsScreen;
+			sourceTree = "<group>";
+		};
+		EDC550C9233621CD0055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550CA233621CD0055B270 /* ProjectDetailsViewController.swift */,
+				EDC550CB233621CD0055B270 /* ProjectDetailsInterector.swift */,
+				EDC550CC233621CD0055B270 /* ProjectDetailsPresenter.swift */,
+				EDC550CD233621CD0055B270 /* ProjectDetailsRouter.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC550CE233621CD0055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550CF233621CD0055B270 /* ProjectDetailsProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC550D0233621D50055B270 /* SendMessageScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550D1233621D50055B270 /* Implementations */,
+				EDC550D6233621D50055B270 /* Interfaces */,
+			);
+			path = SendMessageScreen;
+			sourceTree = "<group>";
+		};
+		EDC550D1233621D50055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550D2233621D50055B270 /* SendMessageInterector.swift */,
+				EDC550D3233621D50055B270 /* SendMessageRouter.swift */,
+				EDC550D4233621D50055B270 /* SendMessageViewController.swift */,
+				EDC550D5233621D50055B270 /* SendMessagePresenter.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC550D6233621D50055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550D7233621D50055B270 /* SendMessageProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC550D8233621D80055B270 /* ProductViewScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550D9233621D80055B270 /* Implementations */,
+				EDC550DE233621D80055B270 /* Interfaces */,
+			);
+			path = ProductViewScreen;
+			sourceTree = "<group>";
+		};
+		EDC550D9233621D80055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550DA233621D80055B270 /* ProductViewController.swift */,
+				EDC550DB233621D80055B270 /* ProductViewRouter.swift */,
+				EDC550DC233621D80055B270 /* ProductViewPresenter.swift */,
+				EDC550DD233621D80055B270 /* ProductViewInterector.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC550DE233621D80055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550DF233621D80055B270 /* ProductViewProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC550E0233621DB0055B270 /* ProDetailsPage */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550E1233621DB0055B270 /* Implementations */,
+				EDC550E6233621DB0055B270 /* Interfaces */,
+			);
+			path = ProDetailsPage;
+			sourceTree = "<group>";
+		};
+		EDC550E1233621DB0055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550E2233621DB0055B270 /* ProDetailsViewController.swift */,
+				EDC550E3233621DB0055B270 /* ProDetailsRouter.swift */,
+				EDC550E4233621DB0055B270 /* ProDetailsInterector.swift */,
+				EDC550E5233621DB0055B270 /* ProDetailsPresenter.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC550E6233621DB0055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC550E7233621DB0055B270 /* ProDetailsProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC551112336223D0055B270 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				EDC551122336223D0055B270 /* UserRegisteration.swift */,
+				EDC551132336223D0055B270 /* UserLoginResult.swift */,
+				EDC551142336223D0055B270 /* ProductCollectionViewCell.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		EDC55115233622420055B270 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EDC55116233622420055B270 /* DemoView.swift */,
+				EDC55117233622420055B270 /* UIImage+Resize.swift */,
+				EDC55118233622420055B270 /* UIView+HUD.swift */,
+				EDC55119233622420055B270 /* demoButton.swift */,
+				EDC5511A233622420055B270 /* textField.swift */,
+				EDC5511B233622420055B270 /* CustomNavController.swift */,
+				EDC5511C233622420055B270 /* UIView+ConvertAsImage.swift */,
+				EDC5511D233622420055B270 /* textView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EDC5512D2336252B0055B270 /* ThirdTabScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5512E2336252B0055B270 /* Implementations */,
+				EDC551332336252B0055B270 /* Interfaces */,
+			);
+			path = ThirdTabScreen;
+			sourceTree = "<group>";
+		};
+		EDC5512E2336252B0055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5512F2336252B0055B270 /* ThirdTabViewController.swift */,
+				EDC551302336252B0055B270 /* ThirdTabPresenter.swift */,
+				EDC551312336252B0055B270 /* ThirdTabRouter.swift */,
+				EDC551322336252B0055B270 /* ThirdTabInterector.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC551332336252B0055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC551342336252B0055B270 /* ThirdTabProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC551352336252D0055B270 /* Terms_ConditionsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDC551362336252D0055B270 /* Implementations */,
+				EDC5513A2336252D0055B270 /* Interfaces */,
+			);
+			path = Terms_ConditionsScreen;
+			sourceTree = "<group>";
+		};
+		EDC551362336252D0055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC551372336252D0055B270 /* TermsRouter.swift */,
+				EDC551382336252D0055B270 /* Terms_ConditionsViewController.swift */,
+				EDC551392336252D0055B270 /* TermsPresenter.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC5513A2336252D0055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5513B2336252D0055B270 /* TermsProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC5513C233625310055B270 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5513D233625310055B270 /* Implementations */,
+				EDC55141233625310055B270 /* Interfaces */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		EDC5513D233625310055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5513E233625310055B270 /* ViewController2.swift */,
+				EDC5513F233625310055B270 /* SplashPresenter.swift */,
+				EDC55140233625310055B270 /* SplashRouter.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC55141233625310055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC55142233625310055B270 /* SplashProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC55143233625330055B270 /* UserProducts */ = {
+			isa = PBXGroup;
+			children = (
+				EDC55144233625330055B270 /* Implementations */,
+				EDC55149233625330055B270 /* Interfaces */,
+			);
+			path = UserProducts;
+			sourceTree = "<group>";
+		};
+		EDC55144233625330055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC55145233625330055B270 /* UserProductsRoter.swift */,
+				EDC55146233625330055B270 /* UserProductsInterector.swift */,
+				EDC55147233625330055B270 /* UserProductsViewController.swift */,
+				EDC55148233625330055B270 /* UserProductsPresenter.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC55149233625330055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5514A233625330055B270 /* UserProductsProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC5514B233625360055B270 /* WelcomePage */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5514C233625360055B270 /* Implementations */,
+				EDC55151233625360055B270 /* Interfaces */,
+			);
+			path = WelcomePage;
+			sourceTree = "<group>";
+		};
+		EDC5514C233625360055B270 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5514D233625360055B270 /* WelcomePagePresenter.swift */,
+				EDC5514E233625360055B270 /* WelcomeViewController.swift */,
+				EDC5514F233625360055B270 /* WelcomePageInterector.swift */,
+				EDC55150233625360055B270 /* WelcomePageRouter.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EDC55151233625360055B270 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDC55152233625360055B270 /* WelcomePageProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDC5516C23363F560055B270 /* Languages */ = {
+			isa = PBXGroup;
+			children = (
+				EDC54FAA23360BED0055B270 /* L012Language.swift */,
+				EDC54FA923360BEC0055B270 /* L102Language.swift */,
+				EDC551732336C8D70055B270 /* Localizable.strings */,
+			);
+			path = Languages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED49628D2334B88E00919F61 /* NewIBety */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4962A02334B89100919F61 /* Build configuration list for PBXNativeTarget "NewIBety" */;
+			buildPhases = (
+				2C8F6FAE8BFBD7F8B805AF91 /* [CP] Check Pods Manifest.lock */,
+				ED49628A2334B88E00919F61 /* Sources */,
+				ED49628B2334B88E00919F61 /* Frameworks */,
+				ED49628C2334B88E00919F61 /* Resources */,
+				A53D457376013982618A098B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewIBety;
+			productName = NewIBety;
+			productReference = ED49628E2334B88F00919F61 /* NewIBety.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED4962862334B88E00919F61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "mostafa elsanadidy";
+				TargetAttributes = {
+					ED49628D2334B88E00919F61 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = ED4962892334B88E00919F61 /* Build configuration list for PBXProject "NewIBety" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = ar;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ar,
+				Base,
+				en,
+			);
+			mainGroup = ED4962852334B88E00919F61;
+			productRefGroup = ED49628F2334B88F00919F61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED49628D2334B88E00919F61 /* NewIBety */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED49628C2334B88E00919F61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC551712336C8D70055B270 /* Localizable.strings in Resources */,
+				ED4962A62334BBBA00919F61 /* Podfile in Resources */,
+				EDC5517A23377E660055B270 /* ProjectProductView.xib in Resources */,
+				EDC5517823377E660055B270 /* ProjectInfoView.xib in Resources */,
+				EDC5517923377E660055B270 /* ProjectDataView.xib in Resources */,
+				ED49629C2334B89100919F61 /* LaunchScreen.storyboard in Resources */,
+				ED4962992334B89100919F61 /* Assets.xcassets in Resources */,
+				ED4962972334B88F00919F61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C8F6FAE8BFBD7F8B805AF91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewIBety-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A53D457376013982618A098B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewIBety/Pods-NewIBety-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewIBety/Pods-NewIBety-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewIBety/Pods-NewIBety-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED49628A2334B88E00919F61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC55106233621DC0055B270 /* SendMessageProtocols.swift in Sources */,
+				EDC551202336224B0055B270 /* UserRegisteration.swift in Sources */,
+				EDC55168233625370055B270 /* WelcomePageRouter.swift in Sources */,
+				EDC5509D233621580055B270 /* FourTabPresenter.swift in Sources */,
+				EDC54F90233606370055B270 /* AboutApplicationInterector.swift in Sources */,
+				EDC55159233625360055B270 /* Terms_ConditionsViewController.swift in Sources */,
+				EDC551272336224B0055B270 /* textField.swift in Sources */,
+				EDC55101233621DC0055B270 /* ProjectDetailsProtocols.swift in Sources */,
+				EDC550EB233621DC0055B270 /* ProductAdditionRouter.swift in Sources */,
+				EDC55167233625370055B270 /* WelcomePageInterector.swift in Sources */,
+				EDC551232336224B0055B270 /* DemoView.swift in Sources */,
+				EDC5509E233621580055B270 /* FourTabRouter.swift in Sources */,
+				EDC5510A233621DD0055B270 /* ProductViewInterector.swift in Sources */,
+				EDC55071233621580055B270 /* Login1ViewController.swift in Sources */,
+				EDC55074233621580055B270 /* LoginPageProtocols.swift in Sources */,
+				EDC5507A233621580055B270 /* CommunicationInterector.swift in Sources */,
+				EDC5512C2336224B0055B270 /* FreeFunction.swift in Sources */,
+				EDC55155233625360055B270 /* ThirdTabRouter.swift in Sources */,
+				EDC55105233621DC0055B270 /* SendMessagePresenter.swift in Sources */,
+				EDC550A6233621580055B270 /* InfoViewProtocols.swift in Sources */,
+				EDC5507D233621580055B270 /* CommunicationPresenter.swift in Sources */,
+				EDC54FEC23361EFF0055B270 /* AccountCreationViewController.swift in Sources */,
+				EDC55102233621DC0055B270 /* SendMessageInterector.swift in Sources */,
+				EDC55156233625360055B270 /* ThirdTabInterector.swift in Sources */,
+				EDC55077233621580055B270 /* LanguagePresenter.swift in Sources */,
+				EDC5515B233625360055B270 /* TermsProtocols.swift in Sources */,
+				EDC5508F233621580055B270 /* NotificationsRouter.swift in Sources */,
+				EDC5515E233625370055B270 /* SplashRouter.swift in Sources */,
+				EDC550EF233621DC0055B270 /* ProjectDataViewController.swift in Sources */,
+				EDC55080233621580055B270 /* MyDetailsInterector.swift in Sources */,
+				EDC5509B233621580055B270 /* MyProjectPartsPresenter.swift in Sources */,
+				EDC55090233621580055B270 /* NotificationsInterector.swift in Sources */,
+				EDC5508B233621580055B270 /* Name_PasswordInterector.swift in Sources */,
+				EDC55154233625360055B270 /* ThirdTabPresenter.swift in Sources */,
+				EDC55079233621580055B270 /* LanguageProtocols.swift in Sources */,
+				EDC5515D233625370055B270 /* SplashPresenter.swift in Sources */,
+				EDC5510E233621DD0055B270 /* ProDetailsInterector.swift in Sources */,
+				EDC55094233621580055B270 /* IbetyPresenter.swift in Sources */,
+				EDC550F1233621DC0055B270 /* ProjectDataProtocols.swift in Sources */,
+				EDC55107233621DC0055B270 /* ProductViewController.swift in Sources */,
+				EDC55158233625360055B270 /* TermsRouter.swift in Sources */,
+				EDC5506F233621580055B270 /* CommunicateDetailsProtocol.swift in Sources */,
+				EDC54FCC23361D330055B270 /* ParentViewProtocols.swift in Sources */,
+				EDC55067233621580055B270 /* MyProductsPresenter.swift in Sources */,
+				EDC551292336224B0055B270 /* UIView+ConvertAsImage.swift in Sources */,
+				EDC550A4233621580055B270 /* InfoViewRouter.swift in Sources */,
+				EDC5512A2336224B0055B270 /* textView.swift in Sources */,
+				EDC550F0233621DC0055B270 /* ProjectDataPresenter.swift in Sources */,
+				EDC54FFA233620900055B270 /* AdvertisingInfoRouter.swift in Sources */,
+				EDC5516B23362F110055B270 /* CheckboxButton.swift in Sources */,
+				EDC5507C233621580055B270 /* CommunicationViewController.swift in Sources */,
+				EDC55073233621580055B270 /* LoginRouter.swift in Sources */,
+				EDC550FA233621DC0055B270 /* SearchProjectsPresenter.swift in Sources */,
+				EDC5509A233621580055B270 /* MyProjectPartsViewController.swift in Sources */,
+				EDC54FEB23361EFF0055B270 /* IbetyInteractor+AccountCreate.swift in Sources */,
+				EDC54FC523361CF40055B270 /* ParentViewPresenter.swift in Sources */,
+				EDC54FF9233620900055B270 /* AdvertisingInfoPresenter.swift in Sources */,
+				EDC550E8233621DC0055B270 /* ProductAdditionPresenter.swift in Sources */,
+				EDC55161233625370055B270 /* UserProductsInterector.swift in Sources */,
+				EDC54FDD23361E290055B270 /* PartsCollectionPresenter.swift in Sources */,
+				EDC55084233621580055B270 /* FirstTabRouter.swift in Sources */,
+				EDC5510F233621DD0055B270 /* ProDetailsPresenter.swift in Sources */,
+				EDC55109233621DC0055B270 /* ProductViewPresenter.swift in Sources */,
+				EDC55099233621580055B270 /* MyProjectPartsInterector.swift in Sources */,
+				EDC54F98233606B50055B270 /* AboutApplicationRouter.swift in Sources */,
+				EDC54FEE23361EFF0055B270 /* IbetyRouter+AccountCreate.swift in Sources */,
+				EDC550F2233621DC0055B270 /* ProfilePresenter.swift in Sources */,
+				EDC55110233621DD0055B270 /* ProDetailsProtocols.swift in Sources */,
+				EDC55089233621580055B270 /* Name_PasswordViewController.swift in Sources */,
+				EDC55088233621580055B270 /* FirstTabProtocols.swift in Sources */,
+				EDC550F4233621DC0055B270 /* ProfileInterector.swift in Sources */,
+				EDC550EE233621DC0055B270 /* ProjectDataRouter.swift in Sources */,
+				EDC550FE233621DC0055B270 /* ProjectDetailsInterector.swift in Sources */,
+				EDC55069233621580055B270 /* MyProductsRouter.swift in Sources */,
+				EDC5510C233621DD0055B270 /* ProDetailsViewController.swift in Sources */,
+				EDC550F9233621DC0055B270 /* SearchProjectsViewController.swift in Sources */,
+				EDC5510B233621DD0055B270 /* ProductViewProtocols.swift in Sources */,
+				EDC55066233621580055B270 /* MyProductViewController.swift in Sources */,
+				EDC55096233621580055B270 /* IbetyRouter.swift in Sources */,
+				EDC5506B233621580055B270 /* CommunicateDetailsPresenter.swift in Sources */,
+				EDC5507F233621580055B270 /* MyDetailsRouter.swift in Sources */,
+				EDC550FB233621DC0055B270 /* SearchProjectsInterector.swift in Sources */,
+				EDC5515C233625360055B270 /* ViewController2.swift in Sources */,
+				EDC54FAB23360BED0055B270 /* L012Language.swift in Sources */,
+				EDC550FC233621DC0055B270 /* SearchProjectsProtocols.swift in Sources */,
+				EDC54FED23361EFF0055B270 /* IbetyPresenter+AccountCreate.swift in Sources */,
+				EDC55068233621580055B270 /* MyProductsInterector.swift in Sources */,
+				EDC55086233621580055B270 /* FirstTabPresenter.swift in Sources */,
+				EDC54F822334CA620055B270 /* PageControl.swift in Sources */,
+				EDC5508C233621580055B270 /* Name_PasswordPresenter.swift in Sources */,
+				EDC55097233621580055B270 /* protocolClass.swift in Sources */,
+				EDC55163233625370055B270 /* UserProductsPresenter.swift in Sources */,
+				EDC55081233621580055B270 /* MyDetailsViewController.swift in Sources */,
+				EDC54FFC233620900055B270 /* AdvertisingInfoInterector.swift in Sources */,
+				EDC550A2233621580055B270 /* InfoViewInterector.swift in Sources */,
+				EDC55153233625360055B270 /* ThirdTabViewController.swift in Sources */,
+				EDC54FC823361CF40055B270 /* ParentViewRouter.swift in Sources */,
+				EDC550F7233621DC0055B270 /* ProfileProtocols.swift in Sources */,
+				EDC55087233621580055B270 /* FirstTABViewController.swift in Sources */,
+				EDC54FE323361E580055B270 /* PartsCollectionProtocols.swift in Sources */,
+				EDC55165233625370055B270 /* WelcomePagePresenter.swift in Sources */,
+				EDC551212336224B0055B270 /* UserLoginResult.swift in Sources */,
+				EDC550A5233621580055B270 /* InfoViewPresenter.swift in Sources */,
+				EDC55108233621DC0055B270 /* ProductViewRouter.swift in Sources */,
+				EDC55095233621580055B270 /* InteractorClass.swift in Sources */,
+				EDC551252336224B0055B270 /* UIView+HUD.swift in Sources */,
+				EDC5507E233621580055B270 /* CommunicationProtocols.swift in Sources */,
+				EDC5515F233625370055B270 /* SplashProtocols.swift in Sources */,
+				EDC550A0233621580055B270 /* FourTabInterector.swift in Sources */,
+				EDC551262336224B0055B270 /* demoButton.swift in Sources */,
+				EDC5509F233621580055B270 /* FourTabViewController.swift in Sources */,
+				EDC55078233621580055B270 /* LanguageViewController.swift in Sources */,
+				EDC5515A233625360055B270 /* TermsPresenter.swift in Sources */,
+				EDC54F92233606420055B270 /* AboutApplicationProtocols.swift in Sources */,
+				EDC55093233621580055B270 /* FirstViewController.swift in Sources */,
+				EDC5507B233621580055B270 /* CommunicationRouter.swift in Sources */,
+				EDC550EA233621DC0055B270 /* ProductAdditionViewController.swift in Sources */,
+				EDC55082233621580055B270 /* MyDetailsPresenter.swift in Sources */,
+				EDC550ED233621DC0055B270 /* ProjectDataInterector.swift in Sources */,
+				EDC54FAC23360BED0055B270 /* L102Language.swift in Sources */,
+				EDC550F5233621DC0055B270 /* ProfileEntities.swift in Sources */,
+				EDC550EC233621DC0055B270 /* ProductAdditionProtocols.swift in Sources */,
+				EDC550F6233621DC0055B270 /* LoginViewController.swift in Sources */,
+				EDC550A1233621580055B270 /* FourTabProtocols.swift in Sources */,
+				EDC5508A233621580055B270 /* Name_PasswordRouter.swift in Sources */,
+				EDC550FF233621DC0055B270 /* ProjectDetailsPresenter.swift in Sources */,
+				EDC55072233621580055B270 /* IbetyInterector+LoginPage.swift in Sources */,
+				EDC54FDE23361E290055B270 /* PartsCollectionRouter.swift in Sources */,
+				EDC54FC723361CF40055B270 /* ParentViewInterector.swift in Sources */,
+				EDC55104233621DC0055B270 /* SendMessageViewController.swift in Sources */,
+				EDC550E9233621DC0055B270 /* ProductAdditionInterector.swift in Sources */,
+				EDC5509C233621580055B270 /* MyProjectPartsProtocols.swift in Sources */,
+				EDC550FD233621DC0055B270 /* ProjectDetailsViewController.swift in Sources */,
+				EDC5506E233621580055B270 /* CommunicateDetailsViewController.swift in Sources */,
+				EDC55160233625370055B270 /* UserProductsRoter.swift in Sources */,
+				EDC55075233621580055B270 /* LanguageRouter.swift in Sources */,
+				EDC54F94233606650055B270 /* AboutApplicationPresenter.swift in Sources */,
+				EDC550F3233621DC0055B270 /* ProfileRouter.swift in Sources */,
+				EDC55091233621580055B270 /* NotificationTableViewController.swift in Sources */,
+				EDC5508E233621580055B270 /* NotificationsPresenter.swift in Sources */,
+				EDC5506D233621580055B270 /* CommunicateDetailsRouter.swift in Sources */,
+				EDC55076233621580055B270 /* LanguageInterector.swift in Sources */,
+				EDC55083233621580055B270 /* MyDetailsProtocols.swift in Sources */,
+				EDC55085233621580055B270 /* FirstTabInterector.swift in Sources */,
+				EDC5510D233621DD0055B270 /* ProDetailsRouter.swift in Sources */,
+				EDC5508D233621580055B270 /* Name_PasswordProtocols.swift in Sources */,
+				EDC55100233621DC0055B270 /* ProjectDetailsRouter.swift in Sources */,
+				EDC54FDF23361E290055B270 /* PartsCollectionInterector.swift in Sources */,
+				EDC550F8233621DC0055B270 /* SearchProjectsRouter.swift in Sources */,
+				EDC54FC623361CF40055B270 /* ParentViewController.swift in Sources */,
+				EDC55162233625370055B270 /* UserProductsViewController.swift in Sources */,
+				EDC551222336224B0055B270 /* ProductCollectionViewCell.swift in Sources */,
+				EDC54FFD233620900055B270 /* AdvertisingInfoProtocols.swift in Sources */,
+				EDC55164233625370055B270 /* UserProductsProtocols.swift in Sources */,
+				EDC54FDC23361E290055B270 /* PartsCollectionViewController.swift in Sources */,
+				EDC55166233625370055B270 /* WelcomeViewController.swift in Sources */,
+				EDC5506A233621580055B270 /* MyProductsProtocols.swift in Sources */,
+				EDC5506C233621580055B270 /* CommunicateDetailsInterector.swift in Sources */,
+				EDC54FF023361F930055B270 /* AccountCreateProtocols.swift in Sources */,
+				EDC55157233625360055B270 /* ThirdTabProtocols.swift in Sources */,
+				ED4962922334B88F00919F61 /* AppDelegate.swift in Sources */,
+				EDC55092233621580055B270 /* NotificationsProtocols.swift in Sources */,
+				EDC551282336224B0055B270 /* CustomNavController.swift in Sources */,
+				EDC551242336224B0055B270 /* UIImage+Resize.swift in Sources */,
+				EDC54FFB233620900055B270 /* AdvertisingInfoViewController.swift in Sources */,
+				EDC550A3233621580055B270 /* InfoViewController.swift in Sources */,
+				EDC55098233621580055B270 /* MyProjectPartsRouter.swift in Sources */,
+				EDC54F96233606960055B270 /* AboutApplicationViewController.swift in Sources */,
+				EDC55103233621DC0055B270 /* SendMessageRouter.swift in Sources */,
+				EDC55169233625370055B270 /* WelcomePageProtocols.swift in Sources */,
+				EDC55070233621580055B270 /* IbetyPresenter+LoginPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED4962952334B88F00919F61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED4962962334B88F00919F61 /* Base */,
+				EDC5516D233656E40055B270 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED49629A2334B89100919F61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED49629B2334B89100919F61 /* Base */,
+				EDC5516E233656E60055B270 /* en */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EDC551732336C8D70055B270 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC551722336C8D70055B270 /* en */,
+				EDC551742336C8DF0055B270 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED49629E2334B89100919F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED49629F2334B89100919F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED4962A12334B89100919F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E9B6D8B6BA42003A2A60B5D /* Pods-NewIBety.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BL8VD5DUD8;
+				INFOPLIST_FILE = NewIBety/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mostafaElsanadidy.NewIBety;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED4962A22334B89100919F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FCFD439AE91E6B5D3CCFDBE /* Pods-NewIBety.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BL8VD5DUD8;
+				INFOPLIST_FILE = NewIBety/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mostafaElsanadidy.NewIBety;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED4962892334B88E00919F61 /* Build configuration list for PBXProject "NewIBety" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED49629E2334B89100919F61 /* Debug */,
+				ED49629F2334B89100919F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4962A02334B89100919F61 /* Build configuration list for PBXNativeTarget "NewIBety" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4962A12334B89100919F61 /* Debug */,
+				ED4962A22334B89100919F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED4962862334B88E00919F61 /* Project object */;
+}
